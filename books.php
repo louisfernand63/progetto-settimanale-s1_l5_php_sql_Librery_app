@@ -2,11 +2,11 @@
 include 'databaseaccess.php';
 
 
-if(isset($_GET['author_id'])) {
-    $author_id = $_GET['author_id'];
+if(isset($_GET['id_autore'])) {
+    $id_autore = $_GET['id_autore'];
 
     
-    $sql = "SELECT * FROM libri WHERE author_id = $author_id";
+    $sql = "SELECT * FROM libri WHERE id_autore = $id_autore";
     $result = mysqli_query($conn, $sql);
 
     
@@ -22,4 +22,4 @@ if(isset($_GET['author_id'])) {
 } else {
     echo "L'id dell'autore non è fornito.";
 }
-?>
+/*?>*/

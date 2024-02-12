@@ -28,4 +28,4 @@ if (isset($_GET['id'])) {
 }
 
 mysqli_close($conn);
-?>
+/*?>*/

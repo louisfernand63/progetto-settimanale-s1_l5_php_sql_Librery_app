@@ -20,7 +20,7 @@
 
     <header class="head">
         <div class="logo border-bottom">
-            <img class="w-100" src="assets/images/logo.svg" alt="" />
+            <img class="w-100" src="assets/img/"  alt="" />
             <a class="navbar-toggler d-block d-lg-none" type="button" data-bs-toggle="collapse"
                 data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
                 aria-label="Toggle navigation">
@@ -34,20 +34,20 @@
                 </li>
                 <li class="border-bottom">
                     <a href=""><i class="bi fs-6 me-2 bi-window-stack"></i>
-                        <i class="bi fs-6 bi-google-play"></i> Applications</a>
+                        <i class="bi fs-6 bi-google-play"></i> Apps</a>
                 </li>
 
                 <li class="border-bottom">
-                    <a href="index.html"><i class="bi me-2 fs-6 bi-controller"></i> Games</a>
+                    <a href="index.html"><i class="bi me-2 fs-6 bi-controller"></i> Giochi</a>
                 </li>
                 <li class="border-bottom">
-                    <a href="index.html"><i class="bi me-2 fs-6 bi-journal-bookmark"></i> Books</a>
+                    <a href="index.html"><i class="bi me-2 fs-6 bi-journal-bookmark"></i> Libri</a>
                 </li>
                 <li class="border-bottom">
-                    <a href="index.html"><i class="bi me-2 fs-6 bi-music-note-beamed"></i> Music</a>
+                    <a href="index.html"><i class="bi me-2 fs-6 bi-music-note-beamed"></i> Musica</a>
                 </li>
                 <li class="border-bottom">
-                    <a href="index.html"><i class="bi fs-6 me-2 bi-film"></i> Movies</a>
+                    <a href="index.html"><i class="bi fs-6 me-2 bi-film"></i> Filmi</a>
                 </li>
                 <li class="border-bottom">
                     <a href="index.html"><i class="bi me-2 fs-6 bi-card-image"></i> Wallpapers</a>
@@ -56,11 +56,11 @@
                     <a href="about.html"><i class="bi me-2 fs-6 bi-info-square"></i> About Us</a>
                 </li>
                 <li class="border-bottom">
-                    <a href="contact.html"><i class="bi me-2 bi-chat-left-dots"></i> Contact Us</a>
+                    <a href="contact.html"><i class="bi me-2 bi-chat-left-dots"></i> Contatta Ci</a>
                 </li>
 
                 <li class="nav-item">
-                    <button class="btn btn-info" data-toggle="modal" data-target="#exampleModal">Add new book</button>
+                    <button class="btn btn-info" data-toggle="modal" data-target="#exampleModal">Aggiungi un nuovo libro</button>
                 </li>
 
             </ul>
@@ -97,11 +97,11 @@
                     <div class="dropdown">
                         <button class="btn btn-outline-info dropdown-toggle" type="button" id="dropdownMenuButton"
                             data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                            Name Lastname
+                            nome e Cognome
                         </button>
                         <div class="dropdown-menu dropdown-menu-right" aria-labelledby="dropdownMenuButton">
-                            <a class="dropdown-item" href="#">Cart</a>
-                            <a class="dropdown-item" href="#">My Books</a>
+                            <a class="dropdown-item" href="#">Carello</a>
+                            <a class="dropdown-item" href="#">I miei libri</a>
                             <div class="dropdown-divider"></div>
                             <a class="dropdown-item" href="#">Logout</a>
                         </div>
@@ -118,7 +118,7 @@
                 <div class="modal-dialog" role="document">
                     <div class="modal-content">
                         <div class="modal-header">
-                            <h5 class="modal-title" id="exampleModalLabel">Add New Book</h5>
+                            <h5 class="modal-title" id="exampleModalLabel">Aggiungi un nuovo libro</h5>
                             <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                                 <span aria-hidden="true">&times;</span>
                             </button>
@@ -126,27 +126,27 @@
                         <div class="modal-body">
                             <form id="addBookForm" action="aggiungi_libro.php" method="post">
                                 <div class="form-group">
-                                    <label for="bookTitle">Title:</label>
+                                    <label for="bookTitle">Titolo:</label>
                                     <input type="text" class="form-control" id="bookTitle" name="titolo" required>
                                 </div>
                                 <div class="form-group">
-                                    <label for="bookAuthor">Author:</label>
+                                    <label for="bookAuthor">Autore:</label>
                                     <input type="text" class="form-control" id="bookAuthor" name="autore" required>
                                 </div>
                                 <div class="form-group">
-                                    <label for="publicationYear">Publication Year:</label>
+                                    <label for="publicationYear">Anno di pubblicazioner:</label>
                                     <input type="text" class="form-control" id="publicationYear"
                                         name="anno_pubblicazione" required>
                                 </div>
                                 <div class="form-group">
-                                    <label for="bookGenre">Genre:</label>
+                                    <label for="bookGenre">Genere:</label>
                                     <input type="text" class="form-control" id="bookGenre" name="genere" required>
                                 </div>
                                 <div class="form-group">
-                                    <label for="bookImage">Image Path:</label>
+                                    <label for="bookImage">Imaggine :</label>
                                     <input type="text" class="form-control" id="bookImage" name="image_path" required>
                                 </div>
-                                <button type="submit" class="btn btn-primary">Add Book</button>
+                                <button type="submit" class="btn btn-primary">AGGIUNGI</button>
                             </form>
                         </div>
                         <div class="modal-footer">

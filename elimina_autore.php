@@ -2,11 +2,11 @@
 include 'databaseaccess.php';
 
 
-if(isset($_GET['autore_id'])) {
-    $author_id = $_GET['autore_id'];
+if(isset($_GET['id_autore'])) {
+    $id_autore = $_GET['id_autore'];
 
     
-    $sql = "DELETE FROM autori WHERE autore_id = $author_id";
+    $sql = "DELETE FROM autori WHERE id_autore = $id_autore";
     if (mysqli_query($conn, $sql)) {
        
         echo "Dati libro aggiornati con successo.";

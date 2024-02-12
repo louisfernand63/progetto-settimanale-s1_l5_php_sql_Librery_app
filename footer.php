@@ -9,7 +9,7 @@ foot
         item.addEventListener('click', event => {
             const authorId = event.currentTarget.getAttribute('data-author-id');
 
-            fetch(`retrieve_books.php?author_id=${author_id}`)
+            fetch(`books.php?author_id=${author_id}`)
                 .then(response => response.json())
                 .then(books => {
 
