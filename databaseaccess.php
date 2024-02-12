@@ -1,10 +1,11 @@
 <?php
 
-
 $Nome_host = "localhost";
 $Nome_utente = "root";
 $password = "vu-86s7qLe-bDRW@";
-$NomeDb = "librery_app";
+/*$NomeDb = "librery_app";*/
+$NomeDb = "gestione_libreria";
+
 
 $conn = new mysqli($Nome_host, $Nome_utente, $password, $NomeDb);
 
